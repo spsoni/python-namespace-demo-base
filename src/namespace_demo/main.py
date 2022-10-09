@@ -1,11 +1,10 @@
-from namespace_demo.base.base_module import random_name
-from namespace_demo.base.shared import hello_world
+import click
 
 
-def main():
-    name = random_name()
-    hello_world(name)
+@click.group
+def cli():
+    pass
 
 
 if __name__ == '__main__':
-    main()
+    cli()
