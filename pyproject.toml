@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "namespace_demo"
-version = "0.1.0"
+name = "namespace_demo_base"
+version = "0.2.0"
 description = ""
 authors = ["Sury Soni <suryasoni@gmail.com>"]
 readme = "README.md"
